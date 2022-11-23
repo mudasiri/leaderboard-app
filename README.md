@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
   <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Leaderboard App Template</b></h3>
 
 </div>
 
@@ -57,13 +57,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Leaderboard App] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> A Leaderboard App for recording scores and displaying them according to highest to lowest
 
-**[your_project__name]** is a...
+**[Leaderboard App]** is a...
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With <a name="built-with">HTML CSS Javascript</a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -96,9 +96,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Add Score]**
+- **[List Store]**
+- **[Contact Me]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -204,15 +204,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/mudasiri)
+- Twitter: [@twitterhandle](https://twitter.com/mudasirissah)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/mudasirissah)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -254,7 +248,7 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank Microverse
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
