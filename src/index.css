@@ -26,6 +26,16 @@ main {
   list-style-type: none;
 }
 
+.success {
+  background-color: green;
+  color: white;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
 footer {
   text-align: center;
 }
