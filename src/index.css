@@ -1,0 +1,31 @@
+body {
+  background-color: grey;
+  padding: 10px 100px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px 100px;
+  gap: 50px;
+}
+
+.scores-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores-title button {
+  width: 150px;
+  height: 35px;
+}
+
+#scorelist {
+  list-style-type: none;
+}
+
+footer {
+  text-align: center;
+}
