@@ -1,5 +1,4 @@
 body {
-  background-color: grey;
   padding: 10px 100px;
 }
 
@@ -23,7 +22,15 @@ main {
 }
 
 #scorelist {
-  list-style-type: none;
+  border: 1px solid;
+  overflow: auto;
+  height: 300px;
+  margin-top: 0;
+}
+
+.score-item {
+  padding: 10px 0px;
+margin-right: 15px;
 }
 
 .success {
@@ -34,6 +41,11 @@ main {
 .error {
   background-color: red;
   color: white;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
 }
 
 footer {
