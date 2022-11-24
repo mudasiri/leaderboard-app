@@ -1,4 +1,4 @@
-const gameID = 'GKu1RIiZvbXu9pzTde2x';
+const gameID = process.env.GAMEID;
 
 // grab ul tag displaying list items
 const scoresList = document.getElementById('scorelist');
