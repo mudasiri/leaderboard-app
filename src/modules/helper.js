@@ -15,14 +15,30 @@ export const displayScores = (scores) => {
 // show status of added form
 const showStatus = (message) => {
   const statusDiv = document.getElementById('status');
-  if(message.includes('provide')){
+  if (message.includes('provide')) {
     statusDiv.className = 'error';
-  }
-  else {
+  } else {
     statusDiv.className = 'success';
   }
-  statusDiv.insertAdjacentHTML('beforeend',`<p>${message}</p>`);
-}
+  statusDiv.insertAdjacentHTML('beforeend', `<p>${message}</p>`);
+};
+
+export const getAllScores = async () => {
+  try {
+    const req = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores/`);
+    const data = await req.json();
+
+    if (!req.ok) {
+      return data;
+    }
+
+    const scores = data.result;
+    displayScores(scores);
+    return scores;
+  } catch (error) {
+    return error;
+  }
+};
 
 export const addNewScore = async (newScore) => {
   try {
@@ -43,23 +59,6 @@ export const addNewScore = async (newScore) => {
     getAllScores();
     showStatus(data.result);
     return data;
-  } catch (error) {
-    return error;
-  }
-};
-
-export const getAllScores = async () => {
-  try {
-    const req = await fetch(`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${gameID}/scores/`);
-    const data = await req.json();
-
-    if (!req.ok) {
-      return data;
-    }
-
-    const scores = data.result;
-    displayScores(scores);
-    return scores;
   } catch (error) {
     return error;
   }
