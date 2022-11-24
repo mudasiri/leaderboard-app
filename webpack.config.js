@@ -12,7 +12,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
     }),
-    new Dotenv()
+    new Dotenv(),
   ],
   output: {
     filename: '[name].bundle.js',
