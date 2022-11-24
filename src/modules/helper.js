@@ -8,7 +8,7 @@ export const displayScores = (scores) => {
   scoresList.innerHTML = '';
   scores.forEach((score) => {
     // append li to ul tag
-    scoresList.insertAdjacentHTML('beforeend', `<li class='score-item'>${score.user}: ${score.score}</li>`);
+    scoresList.insertAdjacentHTML('beforeend', `<li class='score-item'>${score.user}: ${score.score} <hr></li>`);
   });
 };
 
