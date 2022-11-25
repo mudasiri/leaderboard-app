@@ -1,0 +1,53 @@
+body {
+  padding: 10px 100px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 50px 100px;
+  gap: 50px;
+}
+
+.scores-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.scores-title button {
+  width: 150px;
+  height: 35px;
+}
+
+#scorelist {
+  border: 1px solid;
+  overflow: auto;
+  height: 300px;
+  margin-top: 0;
+}
+
+.score-item {
+  padding: 10px 0;
+  margin-right: 15px;
+}
+
+.success {
+  background-color: green;
+  color: white;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+}
